@@ -6,7 +6,7 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from tensorflow.keras.applications.vgg16 import preprocess_input
 import os
 import platform
-model_path= os.path.join(os.getcwd(),'sample evaluation by organizing members','VGG16','model.keras')
+model_path= os.path.join(os.getcwd(),'sample evaluation by organizing members','SVM','model.keras')
 #this only works for .keras and .h5 models
 model = load_model(model_path)
 #modify according to the model type being used
